@@ -9,7 +9,7 @@ jobs:
 
     # Job to print something out
     say-hello:
-        runs-on: ubuntu-latest
+        runs-on: ubuntu-latest #could be a docker container
         steps:
           - name: Say hello
             run: echo "Hello, GitHub Actions!"
